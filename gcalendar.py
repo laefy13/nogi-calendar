@@ -19,7 +19,7 @@ def save_calendar(sched,adj_time):
                 elif '~' in time_range:
                     hour, minute = map(int, time_range.split('~')[0].split(':'))
                 else:
-                    hour, minute = adj_time, 0
+                    hour, minute = 0, 0
                 hour+=adj_time
                 if hour >=24:
                     hour=hour-24
