@@ -1,0 +1,9 @@
+credentials.json
+nogi/
+__pycache__/
+geckodriver.exe
+*.rar
+*.zip
+schedule.json
+*.pickle
+token.json
