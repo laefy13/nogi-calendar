@@ -7,3 +7,4 @@ geckodriver.exe
 schedule.json
 *.pickle
 token.json
+mongo.py
